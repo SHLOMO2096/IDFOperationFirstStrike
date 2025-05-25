@@ -9,7 +9,7 @@ namespace IDFOperationFirstStrike.RedSide
     internal class Hamas : Army
     {
         List<Terrorist> ListOfTerrorists;
-        public Hamas(DateTime dateOfEstablishment, string currentCommander, List<Terrorist> listOfTerrorists)
+        public Hamas(string dateOfEstablishment, string currentCommander, List<Terrorist> listOfTerrorists)
             :base(dateOfEstablishment, currentCommander)
         {
             ListOfTerrorists = listOfTerrorists;

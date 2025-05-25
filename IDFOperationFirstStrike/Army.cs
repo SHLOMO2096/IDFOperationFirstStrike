@@ -8,10 +8,10 @@ namespace IDFOperationFirstStrike
 {
     internal class Army
     {
-        protected DateTime DateOfEstablishment;
+        protected string DateOfEstablishment;
         protected string CurrentCommander ;
 
-        public Army(DateTime dateOfEstablishment, string currentCommander)
+        public Army(string dateOfEstablishment, string currentCommander)
         {
             DateOfEstablishment = dateOfEstablishment;
             CurrentCommander = currentCommander;

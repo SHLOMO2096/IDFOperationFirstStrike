@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace IDFOperationFirstStrike
 {
-    internal abstract class StrikeOptions
+    public abstract class StrikeOptions
     {
         protected string UniqueName;
         protected int AmmunitionCapacity;

@@ -9,7 +9,7 @@ namespace IDFOperationFirstStrike
     internal class Idf : Army
     {
         List<StrikeOptions> CollectionOfStrikeOptions;
-        public Idf( DateTime dateOfEstablishment, string currentCommander, List<StrikeOptions> collectionOfStrikeOptions) 
+        public Idf( string dateOfEstablishment, string currentCommander, List<StrikeOptions> collectionOfStrikeOptions) 
             :base (dateOfEstablishment, currentCommander)
         {
             CollectionOfStrikeOptions = collectionOfStrikeOptions;

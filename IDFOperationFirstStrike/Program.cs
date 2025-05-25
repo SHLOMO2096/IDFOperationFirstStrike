@@ -11,9 +11,13 @@ namespace IDFOperationFirstStrike
     {
         static void Main(string[] args)
         {
+            {
+                Simulation simulation = new Simulation();
+                simulation.Run();
+            }
             //DateTime dateTime = new DateTime();
-            Console.WriteLine(DateTime.Now.ToString());
-            
+            //Console.WriteLine(DateTime.Now.ToString());
+
             //Drone drone = new Drone(new List<string> { "personnel", "armored vehicles" }, "automat", "drone hermes", 3, 56, new List<String> { "hj" });
             //StrikeOptions drone1 = new StrikeOptions(new List<string> { "personnel", "armored vehicles" }, "drone hermes", 3, 56, new List<String> { "hj" });
         }
